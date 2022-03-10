@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NyDasms1ExpCp0KtYHbIp5c9uYBRVaDT8fgeY7ZrX5z8Hl3A7qFAE05pmN39ZTpj96TWbHdgBk9/jECT5V6+Bg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hp\\source\\repos\\MapApp\\MapApp\\MapApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\restsharp\\106.13.0\\restsharp.106.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}

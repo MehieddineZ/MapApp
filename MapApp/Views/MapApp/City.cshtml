@@ -1,0 +1,28 @@
+﻿@model MapApp.Models.City
+
+@{ 
+    ViewData["Title"] = "City";
+}
+<div class="container">
+    <div class="container">
+        <div class="form-group col-md-offset-3 col-md-5">
+            <h2>Info for Selected Place</h2>
+            <label asp-for="Name"></label>
+            <span class="badge alert-primary">@Model.Name</span> <br />
+            <label asp-for="countryName"></label>
+            <span class="badge alert-primary">@Model.countryName</span> <br />
+            <label asp-for="cityName"></label>
+            <span class="badge alert-primary">@Model.cityName</span> <br />
+            <label asp-for="street"></label>
+            <span class="badge alert-primary">@Model.street</span> <br />
+            <label asp-for="lat"></label>
+            <span class="badge alert-primary">@Model.lat</span> <br />
+            <label asp-for="lng"></label>
+            <span class="badge alert-primary">@Model.lng</span> <br />
+            <form method="get">
+                <button asp-controller="MapApp" asp-action="SearchByCity" class="btn btn-primary">Search More!</button>
+            </form>
+        </div>
+
+    </div>
+</div>
